@@ -28,7 +28,7 @@ export default function Page() {
             <div><p className="text-[15px] font-bold tracking-tight">EduMaker Bot</p><p className="text-[11px] font-medium text-slate-400">Telegram assistant</p></div>
           </div>
           <div className="hidden items-center gap-7 text-sm font-medium text-slate-500 md:flex"><a href="#qanday" className="hover:text-[#1463ff]">Qanday ishlaydi?</a><a href="#formatlar" className="hover:text-[#1463ff]">Formatlar</a><a href="#sozlash" className="hover:text-[#1463ff]">Sozlash</a></div>
-          <button className="flex items-center gap-2 rounded-lg border border-[#e2e8f0] px-3 py-2 text-sm font-semibold text-slate-600"><Settings size={16} /> Sozlamalar</button>
+          <a href="/webhook" className="flex items-center gap-2 rounded-lg border border-[#e2e8f0] px-3 py-2 text-sm font-semibold text-slate-600"><Settings size={16} /> Sozlamalar</a>
         </div>
       </header>
 
